@@ -8,7 +8,7 @@ app.get("/*", function(req, res){
     var pathname = url.parse(req.url).pathname;
     console.log(pathname)
     name1 = pathname.substring(1)
-    res.send("<h1>Hi "+ name1 + "</h1>")
+    res.send("<h1>Hi.. "+ name1 + "</h1>")
 }).listen(80);
 
 
